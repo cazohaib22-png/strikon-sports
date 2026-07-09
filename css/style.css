@@ -189,3 +189,198 @@ grid-template-columns:1fr;
 .hero h1{font-size:34px}
 .secondary-btn{margin-left:0;margin-top:12px}
 }
+
+/* ==========================================
+   TOP BAR
+========================================== */
+
+.top-bar{
+    background:#0d0d0d;
+    color:#ffffff;
+    font-size:14px;
+    padding:8px 0;
+    border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.top-bar-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.top-right{
+    display:flex;
+    gap:20px;
+}
+
+.top-right a{
+    color:#ffffff;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.top-right a:hover{
+    color:#e30613;
+}
+
+/* ==========================================
+   HEADER
+========================================== */
+
+.header{
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background:rgba(0,0,0,.92);
+    backdrop-filter:blur(10px);
+    box-shadow:0 8px 25px rgba(0,0,0,.25);
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    min-height:82px;
+}
+
+.logo img{
+    height:60px;
+    transition:.3s;
+}
+
+.logo img:hover{
+    transform:scale(1.05);
+}
+
+.nav-links{
+    display:flex;
+    align-items:center;
+    list-style:none;
+    gap:28px;
+}
+
+.nav-links li{
+    position:relative;
+}
+
+.nav-links a{
+    color:#ffffff;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#e30613;
+}
+
+/* ==========================================
+   DROPDOWN
+========================================== */
+
+.dropdown-menu{
+    position:absolute;
+    top:100%;
+    left:0;
+    min-width:260px;
+    background:#111;
+    display:none;
+    list-style:none;
+    padding:12px 0;
+    border-radius:10px;
+    box-shadow:0 15px 40px rgba(0,0,0,.35);
+}
+
+.dropdown-menu li{
+    width:100%;
+}
+
+.dropdown-menu li a{
+    display:block;
+    padding:12px 20px;
+    color:#fff;
+}
+
+.dropdown-menu li a:hover{
+    background:#e30613;
+    color:#fff;
+}
+
+.dropdown:hover .dropdown-menu{
+    display:block;
+}
+
+/* ==========================================
+   REQUEST QUOTE BUTTON
+========================================== */
+
+.quote-btn{
+    background:#e30613;
+    padding:12px 24px;
+    border-radius:6px;
+    color:#fff !important;
+    transition:.3s;
+}
+
+.quote-btn:hover{
+    background:#b6000f;
+}
+
+/* ==========================================
+   MOBILE MENU
+========================================== */
+
+.menu-toggle{
+    display:none;
+    font-size:28px;
+    background:none;
+    border:none;
+    color:#fff;
+    cursor:pointer;
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:992px){
+
+.top-bar-content{
+flex-direction:column;
+text-align:center;
+}
+
+.menu-toggle{
+display:block;
+}
+
+.nav-links{
+display:none;
+flex-direction:column;
+position:absolute;
+top:82px;
+left:0;
+width:100%;
+background:#111;
+padding:25px;
+}
+
+.nav-links.active{
+display:flex;
+}
+
+.dropdown-menu{
+position:static;
+display:none;
+background:#1b1b1b;
+box-shadow:none;
+margin-top:10px;
+}
+
+.dropdown:hover .dropdown-menu{
+display:block;
+}
+
+}
