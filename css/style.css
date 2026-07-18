@@ -429,6 +429,8 @@ background:#fff;
 }
 
 .product-grid{
+    align-items:start;
+}
 display:grid;
 grid-template-columns:1fr 1fr;
 gap:70px;
@@ -515,6 +517,8 @@ PRODUCT GALLERY
 ================================*/
 
 .product-gallery{
+    align-self:flex-start;
+}
 display:flex;
 flex-direction:column;
 gap:20px;
