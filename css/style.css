@@ -429,12 +429,10 @@ background:#fff;
 }
 
 .product-grid{
-    align-items:start;
-}
 display:grid;
 grid-template-columns:1fr 1fr;
-gap:70px;
-align-items:center;
+gap:60px;
+align-items:start;
 }
 
 .product-image img{
@@ -517,7 +515,7 @@ PRODUCT GALLERY
 ================================*/
 
 .product-gallery{
-    align-self:flex-start;
+align-self:start;
 }
 display:flex;
 flex-direction:column;
@@ -527,6 +525,9 @@ gap:20px;
 .main-image img{
 
 width:100%;
+max-width:580px;
+display:block;
+margin:auto;
 
 border-radius:18px;
 
