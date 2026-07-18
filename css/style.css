@@ -471,6 +471,15 @@ margin-bottom:35px;
 color:#555;
 }
 
+.product-overview p{
+max-width:900px;
+margin:auto;
+font-size:18px;
+line-height:1.9;
+text-align:center;
+color:#555;
+}
+
 .section{
 padding:90px 0;
 }
