@@ -509,3 +509,63 @@ border-bottom:1px solid #ececec;
 .specification-table tr:last-child td{
 border-bottom:none;
 }
+
+/*===============================
+PRODUCT GALLERY
+================================*/
+
+.product-gallery{
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+.main-image img{
+
+width:100%;
+
+border-radius:18px;
+
+box-shadow:0 20px 40px rgba(0,0,0,.12);
+
+transition:.3s;
+
+}
+
+.thumbnail-gallery{
+
+display:flex;
+
+gap:15px;
+
+}
+
+.thumbnail-gallery img{
+
+width:95px;
+
+height:95px;
+
+object-fit:cover;
+
+cursor:pointer;
+
+border-radius:12px;
+
+border:2px solid transparent;
+
+transition:.3s;
+
+}
+
+.thumbnail-gallery img:hover{
+
+transform:translateY(-4px);
+
+}
+
+.thumbnail-gallery img.active{
+
+border:2px solid #e30613;
+
+}
