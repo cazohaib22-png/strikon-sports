@@ -59,3 +59,19 @@ const observer = new IntersectionObserver(entries => {
 document.querySelectorAll(".fade-in").forEach(el => {
     observer.observe(el);
 });
+
+/* ===============================
+   PRODUCT IMAGE GALLERY
+================================*/
+
+function changeImage(img){
+
+document.getElementById("mainProductImage").src = img.src;
+
+document
+.querySelectorAll(".thumbnail-gallery img")
+.forEach(i=>i.classList.remove("active"));
+
+img.classList.add("active");
+
+}
