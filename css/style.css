@@ -647,17 +647,15 @@ gap:30px;
 
 .sample-card{
 
+border-radius:14px;
+
 background:#fff;
 
-border-radius:18px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+transition:.3s;
 
 overflow:hidden;
-
-box-shadow:0 12px 35px rgba(0,0,0,.08);
-
-cursor:pointer;
-
-transition:.35s;
 
 }
 
@@ -665,7 +663,7 @@ transition:.35s;
 
 transform:translateY(-8px);
 
-box-shadow:0 20px 45px rgba(0,0,0,.15);
+box-shadow:0 18px 40px rgba(0,0,0,.18);
 
 }
 
