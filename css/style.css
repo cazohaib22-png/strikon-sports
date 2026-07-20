@@ -210,6 +210,34 @@ grid-template-columns:1fr;
 .secondary-btn{margin-left:0;margin-top:12px}
 }
 
+.trust-strip{
+
+background:#fafafa;
+
+padding:22px 0;
+
+}
+
+.trust-strip .container{
+
+display:flex;
+
+justify-content:space-between;
+
+flex-wrap:wrap;
+
+gap:20px;
+
+}
+
+.trust-item{
+
+font-weight:700;
+
+color:#222;
+
+}
+
 /* ==========================================
    TOP BAR
 ========================================== */
