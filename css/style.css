@@ -336,18 +336,29 @@ grid-template-columns:1fr;
    REQUEST QUOTE BUTTON
 ========================================== */
 
-.quote-btn{
-    background:#e30613;
-    padding:12px 24px;
-    border-radius:6px;
-    color:#fff !important;
-    transition:.3s;
+.quote-btn,
+.btn-red{
+
+padding:14px 28px;
+
+border-radius:8px;
+
+font-weight:700;
+
+font-size:16px;
+
+transition:.3s;
+
 }
 
-.quote-btn:hover{
-    background:#b6000f;
-}
+.quote-btn:hover,
+.btn-red:hover{
 
+transform:translateY(-2px);
+
+box-shadow:0 12px 25px rgba(0,0,0,.18);
+
+}
 /* ==========================================
    MOBILE MENU
 ========================================== */
