@@ -358,7 +358,7 @@ transition:.3s;
 .quote-btn:hover,
 .btn-red:hover{
 
-color:#fff;
+color:#fff !important;
 
 transform:translateY(-2px);
 
