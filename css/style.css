@@ -849,3 +849,13 @@ font-weight:700;
 color:#d8001d;
 
 }
+
+.btn-primary,
+.btn-primary:visited{
+color:#fff !important;
+}
+
+.btn-secondary,
+.btn-secondary:visited{
+color:#fff !important;
+}
