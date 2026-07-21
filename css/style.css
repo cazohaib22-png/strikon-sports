@@ -165,10 +165,30 @@ align-items:center;
 }
 .about-content span{color:var(--primary);font-weight:700}
 .about-content h2{font-size:42px;color:#111;margin:12px 0 20px}
-.cta{
-text-align:center;
-background:#111;
-color:#fff;
+.cta-section{
+    background:#111;
+    color:#fff;
+    padding:70px 20px;
+    text-align:center;
+}
+
+.cta-section h2{
+    font-size:40px;
+    margin-bottom:18px;
+}
+
+.cta-section p{
+    max-width:850px;
+    margin:0 auto 30px;
+    line-height:1.8;
+    color:#ddd;
+}
+
+.cta-buttons{
+    display:flex;
+    justify-content:center;
+    gap:18px;
+    flex-wrap:wrap;
 }
 .footer{
 background:#111;
