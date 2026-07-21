@@ -876,6 +876,13 @@ color:#d8001d;
 
 }
 
+.related-card img{
+    width:100%;
+    height:240px;
+    object-fit:cover;
+    display:block;
+}
+
 .btn-primary,
 .btn-primary:visited{
 color:#fff !important;
